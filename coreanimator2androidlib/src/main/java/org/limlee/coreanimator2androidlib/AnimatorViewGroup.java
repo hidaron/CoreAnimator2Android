@@ -129,11 +129,11 @@ public class AnimatorViewGroup extends FrameLayout implements AnimatorUIGroup {
                         && view instanceof ViewGroup) {
                     ((ViewGroup) view).setClipChildren(false);
                 }
-                view.setAlpha(((AnimatorUIView) view).getUIAlpha());
+                ViewCompat.setAlpha(view, ((AnimatorUIView) view).getUIAlpha());
                 Float2 scale = ((AnimatorUIView) view).getUIScale();
                 if (null != scale) {
-                    view.setScaleX(scale.x);
-                    view.setScaleY(scale.y);
+                    ViewCompat.setScaleX(view, scale.x);
+                    ViewCompat.setScaleY(view, scale.y);
                 }
                 addView(view, layoutParams);
             }
