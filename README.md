@@ -3,10 +3,10 @@
 
 ![image](https://github.com/hidaron/CoreAnimator2Android/blob/master/demo.gif)
 
-## 飞机大礼物部分源码
+## 飞机大礼物实现解析
 
 ````
-public class HuijiGiftAnimatorView extends AnimatorLayout {
+public class HuijiGiftAnimatorView extends AnimatorLayout { //所有的大动画礼物都需要继承AnimatorLayout
 
 	....
 	@Override
@@ -74,11 +74,3 @@ public class HuijiGiftAnimatorView extends AnimatorLayout {
     }
 }
 ````
-
-## 大礼物动画实现原理
-
-### 1. 初始化动画画布
-
-### 2. 添加动画视图
-
-### 3. 添加动画属性
