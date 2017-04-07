@@ -34,7 +34,8 @@ public class HuijiGiftAnimatorView extends AnimatorLayout { //所有的大动画
     	//UIImageView *花瓣粉2 = [UIImageView new];
 	//花瓣粉2.bounds = CGRectMake(0, 0, 62.0, 60.0);
 	//UIImage *img花瓣粉2 = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"花瓣粉_2.png" ofType:nil]];
-	//if ( img花瓣粉2 == nil ) { NSLog(@"** Warning: Could not create image from '花瓣粉_2.png'. Please make sure that it 	//is added to the project directly (not in a folder reference)."); }
+	//if ( img花瓣粉2 == nil ) { NSLog(@"** Warning: Could not create image from '花瓣粉_2.png'. 
+	//Please make sure that it is added to the project directly (not in a folder reference)."); }
 	//花瓣粉2.image = img花瓣粉2;
 	//花瓣粉2.contentMode = UIViewContentModeCenter;
 	//花瓣粉2.layer.position = CGPointMake(375.000, 340.000);
